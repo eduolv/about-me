@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@200;300;400;500;600;700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;         
+  }
+    
+  body::-webkit-scrollbar-thumb {
+    background-color: #ff000d62;  
+    border-radius: 20px;   
+  }
+
+/* body{
+    background-color: #141414;
+    height: 100vh;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dotted #ff000d62;
+    padding: 20px;
+}
+
+
+.img-logo {
+    width: 25%;
+} */
+
+body {
+    background-color: #141414; 
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: auto; */
+    height: 17%;
+    /* margin-top: 15px; */
+}
+
+.perfil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.gif-netflix {
+    width: 140px;
+    margin: 30px;
+    margin-bottom: 10px;
+    /* position: absolute; */
+    /* left: 10px; */
+}
+
+.gif-search {
+    width: 150px;
+    position: absolute;
+    right: 110px;
+    cursor:not-allowed;
+}
+
+
+.perfil img {
+    width: 90px;
+}
+
+h1 {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    /* width: 500px; */
+    /* flex: 1; */
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-top: 20%; */
+}
+
+
+.card {
+    /* background-color: white; */
+    background-color: #00000031; 
+    border-radius: 20px;
+    border: 1px solid #4e4e4e;
+    color: rgb(226, 226, 226);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* width: 80%; */
+    /* height: 50%; */
+    margin: 10px;
+    /* width: 210px; */
+    /* flex: 1; */
+    padding: 40px;
+}
+
+/* h3 {
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+} */
+
+span {
+    padding: 15px;
+    font-size: 13px;
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    /* background-color: rgb(219, 219, 219); */
+    background-color: #ff000d62;
+    color: white;
+}
+
+/* ..................effects................... */
+
+.card:hover {
+    cursor: pointer;
+    /* background-color: #FF930F; */
+    background-color: #ff000d62;
+    color: white;
+    border: 0;
+    transition: 0.3s linear;
+    box-shadow: 8px 15px 15px rgb(0, 0, 0);
+    border-radius: 90px;
+    border: 1px black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+
+button:hover {
+    cursor: pointer;
+    padding: 13px 40px 13px 40px;
+    border-radius: 90px;
+    transition: 0.3s;
+}

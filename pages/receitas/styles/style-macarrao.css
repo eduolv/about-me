@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@200;300;400;500;600;700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;       
+  }
+    
+body::-webkit-scrollbar-thumb {
+    background-color: #ff000d62;
+    border-radius: 20px;   
+  }
+
+body{
+    background-color: #141414;
+    height: 180%; 
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dotted #fabb6f;
+    padding: 20px;
+}
+
+
+.img-logo {
+    width: 25%;
+}
+
+h1 {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* ........infos receita - abaixo do video.......... */
+
+.infos-receita {
+    display: flex;
+    background-color: #141414;
+    width: 50%;
+    justify-content: center;
+    box-shadow: 8px 15px 15px rgb(0, 0, 0);
+    border: 1px rgb(56, 56, 56) solid;
+}
+
+.infos-receita img {
+    width: 40px;
+}
+
+
+.infos-receita div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.p-titulo {
+    color: rgb(255, 255, 255);
+}
+
+.p-min {
+    color: #FF930F;
+}
+
+.infos-receita:hover {
+    width: 70%;
+    transition: 0.4s linear;
+}
+
+/* .................................................. */
+
+.linha {
+    width: 80%;
+    border: 1px solid rgb(204, 204, 204);
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #FF930F;
+}
+
+ul {
+    margin-right: 30%;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+ol {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+li {
+    margin-top: 10px;
+}
+
+.linha {
+    width: 80%;
+    border: 1px solid rgb(204, 204, 204);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px;
+    border: 0;
+    background-color: #FF930F;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#link-topo {
+    text-decoration: none;
+    background-color: #FF930F;
+    color: white;
+    /* padding: 10px 15px 10px 15px; */
+    padding: 10px;
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+}
+
