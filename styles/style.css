@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414; 
+    /* background-image: linear-gradient(to top, black, #141414); */
+    height: 100vh;
+}
+
+.gif-netflix {
+    width: 180px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+/* ..........user unavailable........... */
+
+.user {
+    height: 150px;
+    width: 150px;
+    cursor: not-allowed;
+}
+
+.img-user {
+    width: 100px;
+}
+
+/* ................................ */
+
+.img-eu {
+    width: 200px;
+}
+
+.user,.eu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    width: auto;
+    height: auto;
+    /* flex: 2; */
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.settings img {
+    width: 30px;
+}
+
+.img-eu:hover {
+    width: 250px;
+    transition: 0.4s linear;
+}
+
+.eu:hover {
+    border: 1px solid rgb(109, 109, 109);
+    transition: 0.4s linear;
+    flex: 2;
+}
+
+.img-user:hover{
+    filter: grayscale(100%);
+    transition: 0.3s linear;
+    cursor: not-allowed;
+}
+
+.user:hover {
+    filter: grayscale(100%);
+    transition: 0.3s linear;
+}
+
+.settings:hover {
+    filter: grayscale(100%);
+    transition: 0.3s linear;
+    cursor: not-allowed;
+}

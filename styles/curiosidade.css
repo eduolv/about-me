@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414; 
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;         
+}
+
+body::-webkit-scrollbar-thumb {
+    /* background-color: #ff020e; */
+    background-color: #ff000d62;  
+    border-radius: 50px;   
+  }
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: auto; */
+    height: 17%;
+    /* margin-top: 15px; */
+}
+
+.perfil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.perfil img {
+    width: 70px;
+}
+
+.gif-netflix {
+    width: 150px;
+    margin: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.gif-search {
+    width: 150px;
+    position: absolute;
+    right: 150px;
+    cursor:not-allowed;
+}
+
+.episodios {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.temporada {
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+    border: 1px solid rgba(105, 105, 105, 0.466);
+    background-color: #222121;
+    padding: 3px 15px 3px 15px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(211, 211, 211);
+    margin-left: 10px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.linha {
+    background-color: rgb(155, 155, 155);
+    width: auto;
+    height: 1px;
+}
+
+/* ............................................................... */
+
+.section-ep {
+    margin: 20px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.section-ep:hover {
+    background-color: #222121;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.ep1 {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.number-ep {
+    font-size: 30px;
+    margin-right: 20px;
+    opacity: 0.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-ep img {
+    width: 140px;
+    margin-right: 20px;
+}
+
+.p-sinopse {
+    color: rgb(211, 211, 211);
+    margin-top: 20px;
+}

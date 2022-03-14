@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414; 
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    width: 5px;         
+}
+
+body::-webkit-scrollbar-thumb {
+    /* background-color: #ff020e; */
+    background-color: #ff000d62;  
+    border-radius: 50px;   
+  }
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: auto; */
+    height: 17%;
+    /* margin-top: 15px; */
+}
+
+.perfil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.perfil img {
+    width: 70px;
+}
+
+.gif-netflix {
+    width: 150px;
+    margin: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.gif-search {
+    width: 150px;
+    position: absolute;
+    right: 150px;
+    cursor:not-allowed;
+}
+
+/* ............................. */
+
+.divertidamente {
+    margin-left: 10px;
+}
+
+h1 {
+    color: rgb(211, 211, 211);
+    margin-left: 10px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.linha {
+    background-color: rgb(155, 155, 155);
+    width: auto;
+    height: 1px;
+}
+
+.video-meme {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    box-shadow: 8px 15px 15px rgb(0, 0, 0);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .div-memes {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.img-meme {
+    width: 70%;
+}
+
+
